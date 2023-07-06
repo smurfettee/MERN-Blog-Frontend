@@ -1,0 +1,243 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.link:link{
+    color: black;
+    text-decoration: none;
+}
+
+.link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.link:active{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    height: 10vh;
+}
+
+.leftNavbar {
+    width: 50%;
+    display: flex;
+}
+
+.leftNavbar a {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.rightNavbar a {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.rightNavbar {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.post {
+    width: 50%;
+    max-height: 250px;
+    display: flex;
+}
+
+.post div {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBox {
+    margin: 20px;
+    width: 40vw;
+}
+
+.textBox p  {
+    font-size: large;
+}
+
+.outsideContainer {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+    padding: 20px;
+    max-width: 350px;
+    min-width: 250px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.loginContainer * {
+    min-height: 10px;
+    height: 4vh;
+}
+
+.loginContainer input {
+    margin-bottom: 15px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.loginContainer button {
+    margin-top: 10px;
+    max-width: 100px;
+    align-self: center;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.loginContainer button:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.loginContainer button:active {
+    background-color: rgb(201, 201, 201);
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+.aboutContainer {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutContainer div:first-child{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aboutContainer div {
+    width: 50vw;
+}
+
+.aboutContainer div {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutContainer div a {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-top: 20px;
+}
+
+form input {
+    margin: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    height: 25px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: rgb(77, 73, 73);
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(77, 73, 73);
+    color: white;
+}
+
+form button:active {
+    background-color: rgb(77, 73, 73);
+    color: white;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.pageWrapper h1 {
+    margin-bottom: 0px;
+}
+
+.blogInfo p {
+    color: gray;
+}
+
+.blogInfo {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.content {
+    width: 100%;
+    font-size: 20px;
+}
+
+.editButton {
+    background-color: #3f3c3c;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.editWrapper {
+    margin: 10px;
+}
